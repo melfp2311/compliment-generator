@@ -47,7 +47,7 @@ var compliment = [
     "Everyone decided that you’re the best.",
     "Successful people wanna be you.",
     "You couldn't be cooler if you tried.",
-    "Let's be honest: You most likely have an oversees fans club.",
+    "Let's be honest: You most likely have an overseas fans club.",
     "They should hang your photo at every restaurant you've ever eaten at.",
     "You'd make being stuck in traffic fun.",
     "You're a dream come true.",
@@ -56,6 +56,13 @@ var compliment = [
     "Even baby animals think you're cute.",
     "You're big news.",
     "Your pet loves you so much to even run away.",
+    "You are the best at making cereal.", 
+    "I would definitely trust you my cats.",
+    "You are freakishly Good at thumb wars.",
+    "Kids think you are a cool old person.",
+    "You are predictable in your unpredictability.",
+    "You leave a little sparkle wherever you go.",
+    "You sign off-key but with great spirit.",
 ]
 
 
