@@ -51,6 +51,7 @@ var compliment = [
     "They should hang your photo at every restaurant you've ever eaten at.",
     "You'd make being stuck in traffic fun.",
     "You're a dream come true.",
+    "You're better than unicorns and sparkles combined.",
     "You are just so fun.",
     "There's probably a three-year waiting list to be your friend.",
     "Even baby animals think you're cute.",
