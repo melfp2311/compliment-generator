@@ -1,46 +1,3 @@
-
-var backgroundColors = [
-    "#ff8a80 ",
-    "#ff5252",
-    "#ff80ab",
-    "#ff4081",
-    "#f50057 ",
-    "#c51162",
-    "#ea80fc",
-    "#b388ff",
-    "#7c4dff ",
-    "#8c9eff",
-    "#536dfe",
-    "#2979ff",
-    "#00bcd4 ",
-    "#80d8ff",
-    "#00e5ff",
-    "#64ffda",
-    "#1de9b6 ",
-    "#4caf50",
-    "#00e676",
-    "#aeea00",
-    "#ffea00 ",
-    "#ffd740",
-    "#ffc400",
-    "#ffab40",
-    "#ff9100",
-    "#ff9e80 ",
-    "#ff6e40",
-    "#7986cb",
-    "#ec407a",
-    "#e57373 ",
-    "#0097a7",
-    "#8bc34a",
-    "#d4e157",
-    "#ef9a9a",
-    "#ce93d8",
-    "#f06292",
-    "#1e88e5",
-    "#283593 ",
-    "#e65100",
-]
-
 var compliment = [
     "Cockroaches, mice and other pests avoid your place out of respect.",
     "You could be a professional professional.",
@@ -64,7 +21,7 @@ var compliment = [
     "You are predictable in your unpredictability.",
     "You should have your own late night talk show.",
     "Everyone could learn a thing or two from you.",
-    "But seriously  though - everyone wants to date you.",
+    "But seriously though - everyone wants to date you.",
     "You're like a magnet for good things.",
     "Even a double rainbow has nothing on you.",
     "Being cool isn't a competition, but you're winning.",
@@ -83,7 +40,7 @@ var compliment = [
     "You know how to keep your cool.",
     "Everyone feels good when you are around.",
     "Other people's grandmas wanna bake cookies for you.",
-    "Talent scouts rishes to the hospital when you were born.",
+    "Talent scouts rushed to the hospital when you were born.",
     "You have so much to offer.",
     "You leave a little sparkle wherever you go.",
     "You sign off-key but with great spirit.",
@@ -91,37 +48,25 @@ var compliment = [
 
 
 // Default
-var color = Math.floor(Math.random() * backgroundColors.length)
-$("body").css("background-color", backgroundColors[color]);
-
 var com = Math.floor(Math.random() * compliment.length)
 $(".header").text(compliment[com]);
 
-
 //Working Meh button
 $(document).ready(function() {
+    $("#mehBtn").on("click", function(){
+            var com = Math.floor(Math.random() * compliment.length)
+        $(".header").text(compliment[com]);
 
- $("#mehBtn").on("click", function(){
-    var color = Math.floor(Math.random() * backgroundColors.length)
-    $("body").css("background-color", backgroundColors[color]);
-    
-    var com = Math.floor(Math.random() * compliment.length)
-    $(".header").text(compliment[com]);
-
-    var tuitText = document.getElementById('data-text').getAttribute('value');
-    console.log(tuitText);
-
- });     
+    });     
 });
 
 //Working Loved it button
 $(document).ready(function() {
+    $("#loveditBtn").on("click", function(){
+        var tuitText = $('data-text');
+        $(tuitText).text(".header");
 
-$("#loveditBtn").on("click", function(){
-    var tuitText = $('data-text');
-    $(tuitText).text(".header");
-
-    });     
+        });     
    });
 
 
