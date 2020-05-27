@@ -46,28 +46,30 @@ var compliment = [
     "You sign off-key but with great spirit.",
 ]
 
+//For nav bar
+$(document).ready(function(){
+$(".sidenav").sidenav()
 
-// Default
+    // Default
 var com = Math.floor(Math.random() * compliment.length)
 $(".header").text(compliment[com]);
 
 //Working Meh button
-$(document).ready(function() {
     $("#mehBtn").on("click", function(){
             var com = Math.floor(Math.random() * compliment.length)
         $(".header").text(compliment[com]);
 
     });     
-});
 
 //Working Loved it button
-$(document).ready(function() {
     $("#loveditBtn").on("click", function(){
         var tuitText = $('data-text');
         $(tuitText).text(".header");
 
         });     
-   });
+
+})
+
 
 
 
