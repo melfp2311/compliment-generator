@@ -32,3 +32,11 @@ p {
   vertical-align: middle;
   margin-bottom: 5px;
 }
+
+.page-footer {
+  background-color: black; 
+  height: 100px;
+  color: white; 
+  text-align: center;
+}
+
